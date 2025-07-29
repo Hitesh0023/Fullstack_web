@@ -1,0 +1,16 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: red; */
+}
+h1,h3{
+    color: brown;
+}
+#login{
+    background-color:rgb(42, 144, 42);
+    color: white;
+}
+#signup{
+    background-color: rgb(88, 21, 21);
+    color: white;
+    border-color: blueviolet;
+}
