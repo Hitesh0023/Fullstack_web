@@ -10,7 +10,44 @@ h1,h3{
     color: white;
 }
 #signup{
-    background-color: rgb(88, 21, 21);
+    background-color: rgb(88, 72, 21);
     color: white;
-    border-color: blueviolet;
+    border-color: rgb(61, 6, 112);
+}
+.upvote{
+    background-color: rgb(101, 10, 101);
+    color: white;
+}
+/* #myId{
+    color: rgb(4, 45, 45);
+} */                             
+div[id=myId]{
+    color: black;
+}
+
+.port a{
+    color: purple;
+    background-color: rgb(225, 56, 208);
+}
+nav ul li a{
+    color: rgb(236, 50, 226);
+}
+
+p +h3{
+    text-decoration:underline;
+}
+.upvote + button{
+    background-color: darkgoldenrod;
+    color: rgb(8, 7, 19);
+}
+div > input{
+    background-color: rgb(24, 192, 181);
+    color: black;
+}
+
+input[type = text]{
+    background-color: red;
+}
+input[type = password]{
+    background-color: green;
 }
