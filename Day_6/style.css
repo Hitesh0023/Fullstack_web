@@ -3,7 +3,10 @@
     /* background-color: red; */
 }
 h1,h3{
-    color: brown;
+    color: brown !important;
+}
+h3{
+    color: gold;
 }
 #login{
     background-color:rgb(42, 144, 42);
@@ -73,4 +76,10 @@ input[type="radio"]:checked + label{
 }
 div+:nth-of-type(n){
     background-color: aqua;
+}
+h3{
+    background-color: red;
+}
+h3{
+    background-color: blue;
 }
