@@ -10,3 +10,6 @@ div{
  /* input{
     background-color: inherit;
  } */
+button:hover{
+    background-color: rgb(190, 39, 44) ;
+}
