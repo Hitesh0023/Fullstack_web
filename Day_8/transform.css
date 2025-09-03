@@ -5,6 +5,7 @@ div{
     margin: 10px;
     text-align: center;
     border: 2px solid rgb(0, 0, 0);
+    text-align: center;
 }
 
 section{
@@ -25,4 +26,20 @@ div:nth-of-type(3n){
 
 #one{
     transform: rotate(-45deg);
+}
+#two{
+    transform: scale(0.5);
+    transform: scaleX(2);
+}
+#three{
+    transform: translate(50px,50px);
+    transoform: translatex(10px);
+}
+
+#four{
+    transform: skew(30deg);
+
+}
+#five{
+    transform: rotate(-30deg);
 }
