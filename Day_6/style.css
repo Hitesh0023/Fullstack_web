@@ -1,0 +1,85 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: red; */
+}
+h1,h3{
+    color: brown !important;
+}
+h3{
+    color: gold;
+}
+#login{
+    background-color:rgb(42, 144, 42);
+    color: white;
+}
+#signup{
+    background-color: rgb(88, 72, 21);
+    color: white;
+    border-color: rgb(61, 6, 112);
+}
+.upvote{
+    background-color: rgb(101, 10, 101);
+    color: white;
+}
+/* #myId{
+    color: rgb(4, 45, 45);
+} */                             
+div[id=myId]{
+    color: black;
+}
+
+.port a{
+    color: purple;
+    background-color: rgb(225, 56, 208);
+}
+nav ul li a{
+    color: rgb(18, 15, 155);
+}
+
+p +h3{
+    text-decoration:underline;
+}
+.upvote + button{
+    background-color: darkgoldenrod;
+    color: rgb(8, 7, 19);
+}
+div > input{
+    background-color: rgb(24, 192, 181);
+    color: black;
+}
+
+input[type = text]{
+    background-color: red;
+}
+input[type = password]{
+    background-color: green;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+div+:nth-of-type(n){
+    background-color: aqua;
+}
+h3{
+    background-color: red;
+}
+h3{
+    background-color: blue;
+}
