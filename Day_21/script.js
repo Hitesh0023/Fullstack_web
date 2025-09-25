@@ -145,14 +145,14 @@
 // let [winner, runnrup,...others] = namees;
 
 
-const student = {
-    name:"Hitesh",
-    username: "Hites123",
-    age : 20,
-    class : "Te",
-    subjects : ["English","DSA","OOPS","Math"],
-    password: "Hitec"
-};
+// const student = {
+//     name:"Hitesh",
+//     username: "Hites123",
+//     age : 20,
+//     class : "Te",
+//     subjects : ["English","DSA","OOPS","Math"],
+//     password: "Hitec"
+// };
 
 
-let {username,password: age ,place="Mumbai"} = student;
+// let {username,password: age ,place="Mumbai"} = student;
