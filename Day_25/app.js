@@ -4,12 +4,10 @@
 
 // }
 
-
 // function demo(){
 // console.log("calling hello function")
 // hello();
 // };
-
 
 // console.log("Calling Demo function")
 // demo();
@@ -46,26 +44,28 @@
 
 // console.log("Hello..!");
 
-h1 = document.querySelector("h1");
+// h1 = document.querySelector("h1");
 
-function changeColor(color,delay,nextColorChange){
-    setTimeout(() =>{
-        h1.style.color = color;
-        nextColorChange();
-    },delay);
-    
-}
+// function changeColor(color,delay,nextColorChange){
+//     setTimeout(() =>{
+//         h1.style.color = color;
+//         nextColorChange();
+//     },delay);
 
-changeColor("red",1000,() =>{
-    changeColor("orange",1000,() =>{
-        changeColor("green",1000,() =>{
-            changeColor("yellow",1000)
-        });
-            
-    });
-    
-});
+// }
 
-// changeColor("red",1000); 
-// changeColor("green",2000); 
-// changeColor("orange",3000); 
+// changeColor("red",1000,() =>{
+//     changeColor("orange",1000,() =>{
+//         changeColor("green",1000,() =>{
+//             changeColor("yellow",1000)
+//         });
+
+//     });
+
+// });
+
+// changeColor("red",1000);
+// changeColor("green",2000);dd
+    // console.log(" failure : weak connection , data not saved ");
+//   }
+// );
