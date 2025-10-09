@@ -22,5 +22,8 @@ function Person(name, age) {
     this.name = name;
     this.age = age;
 }
+person.prototype.talk = function() {
+    console.log(`Hello I am ${this.name} and I am ${this.age} years old`);
+}
 let p1 = new Person("Hitesh", 24);
 let p2 = new Person("Ramesh", 25);
