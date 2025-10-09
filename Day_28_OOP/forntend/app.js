@@ -18,12 +18,14 @@
 // let p1 = personmaker("Hitesh", 24);
 // let p2 = personmaker("Ramesh", 25);
 
-function Person(name, age) {
-    this.name = name;
-    this.age = age;
-}
-person.prototype.talk = function() {
-    console.log(`Hello I am ${this.name} and I am ${this.age} years old`);
+class Person {
+    constructor(name,age) {
+        this.name = name;
+        this.age = age;
+    }
+    talk(){
+        console.log(`Hi , my name is ${this.name}`)
+    }
 }
 let p1 = new Person("Hitesh", 24);
 let p2 = new Person("Ramesh", 25);
