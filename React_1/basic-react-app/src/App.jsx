@@ -36,16 +36,18 @@
 
 
 import"./App.css";
+import Title from "./Title.jsx";
 
-function Title(){
-  return <h1>I am the Title</h1>;
-}
+
 function App(){
   return (
-    <div>
+    <div id="mainbox">
       <h1>This is my app component</h1>
       <p>inside app component </p>
       <Title/>
+      
+      <Title/>
+      
     </div>
   );
   
