@@ -1,0 +1,43 @@
+.continer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(69, 239, 140);
+    flex-wrap: wrap;
+    margin: 10px auto;
+    flex-direction: row;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.continer div{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+.head{
+    height: 50px;
+    width: 900px;
+    border: 2px solid rgb(119, 247, 236);
+    background-color: rgb(233, 166, 178);
+    border-radius: 15px;
+    margin-top: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+.head div{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 5px;
+}

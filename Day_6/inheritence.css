@@ -1,0 +1,15 @@
+div{
+    background-color: yellow;
+}
+/* form{
+    background-color: red;
+} */
+ button{
+    background-color: inherit;
+ }
+ /* input{
+    background-color: inherit;
+ } */
+button:hover{
+    background-color: rgb(190, 39, 44) ;
+}

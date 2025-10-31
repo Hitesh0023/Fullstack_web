@@ -1,0 +1,46 @@
+div{
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+section{
+    margin-top: 100px;
+    text-align: center;
+}
+
+div:nth-of-type(2n){
+    background-color: rgb(170, 255, 0);
+}
+
+div:nth-of-type(3n){
+    background-color: rgb(255, 0, 191);
+}
+
+
+/* *****treansform****** */
+
+
+#one{
+    transform: rotate(-45deg);
+}
+#two{
+    transform: scale(0.5);
+    transform: scaleX(2);
+}
+#three{
+    transform: translate(50px,50px);
+    transoform: translatex(10px);
+}
+
+#four{
+    transform: skew(30deg);
+
+}
+#five{
+    transform: rotate(-30deg);
+}
